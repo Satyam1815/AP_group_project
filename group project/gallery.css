@@ -1,0 +1,189 @@
+#navbar , #tagline, .divhead,.imgtxt,.va,#galTit,#footer,#footdiv3 input
+{
+    font-family: 'Jost', sans-serif;
+}
+#addmore
+{
+    font-family: 'Quicksand', sans-serif;
+}
+#title
+{
+    font-family: 'Anton',sans-serif;
+}
+
+html 
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    margin:0;
+}
+#header
+{
+    width:100%;
+    position:fixed;
+    top:0;
+    height:4vw;
+    background-color:white; 
+    z-index: 5;
+    box-shadow:0 0 10px rgba(128,128,128,0.6);
+}
+#title,#navbar
+{
+    display:inline-block;
+    height:4vw;
+    margin:0 4vw 0 4vw;
+}
+
+#title div
+{
+    display: inline-block;
+}
+#logo
+{
+    height:3.6vw;
+    width:4.8vw;
+    overflow:hidden;
+}
+#logo img
+{
+    height:6vw;
+}
+#name
+{
+    vertical-align: top;
+    font-size: 2vw;
+    margin-top: 0.5vw;
+    color: black;
+}
+
+#navbar
+{
+    float: right;
+    font-size: 1.2vw;
+}
+.navOp
+{
+    display:inline-block;
+}
+.navOp>a
+{
+    display:block; 
+    padding:1vw 2vw 1vw 2vw;
+    text-decoration: none;
+    color:#999999;     
+}
+.navOp a:hover
+{
+    color:#004499;
+    text-shadow:0px 0px 10px #dddddd;
+}
+.dropdown
+{
+    position: absolute;
+    display:none;
+    min-width:10vw;
+    background-color:white;
+    box-shadow: 0px 0px 2px grey;
+    padding:0.5vw 0 1vw 0;
+}
+.dropdown a
+{
+    display:block;
+    padding:0.5vw 2.5vw 0.5vw 2vw;
+    text-decoration: none;
+    color:#888888;
+}
+#destinations:hover #destination-dropdown
+{
+    display:block;
+}
+#experiences:hover #experiences-dropdown
+{
+    display:block;
+}
+#main
+{
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+
+
+#homegallery
+{
+    overflow: hidden;
+    margin:0.4vw;
+}
+.gallerydiv
+{
+    width:23.5vw;
+    display: inline-block;
+    height:100%;
+    margin:0.3vw;
+    overflow: hidden;
+    vertical-align: top;
+}
+.gallerydiv img
+{
+    max-width: 100%;
+    margin-top: 0.5vw;
+}
+#galTit
+{
+    color:White;
+    text-align: center;
+    width: 100%;
+    font-size: 6vw;
+    padding-top: 4vw;
+    background-color: #002266;
+}
+#addmore
+{
+    text-align: center;
+    color: #888888;
+    font-size: 1.5vw;
+    padding: 2vw;
+}
+#footer
+{
+    padding:0 5vw;
+    background-color: #002266;
+}
+.footdiv
+{
+    display:inline-block;
+    overflow: hidden;
+    width: 25vw;
+    margin:0;
+    vertical-align: top;
+    padding:2vw;
+}
+#footdiv1
+{
+    font-size: 1.5vw;
+    color: white;
+}
+#footdiv1 a
+{
+    text-decoration: none;
+    color: white;
+}
+#footdiv2 img
+{
+    width: 4vw  ;
+    padding: 1vw 1vw;
+}
+#footdiv3 input
+{ 
+    font-size: 1vw;
+    border-radius: 2vw;
+    border-style:double;
+    border-color: aliceblue ;
+}
+.foothead
+{
+    color: white;
+    font-size: 2.5vw;
+    padding: 2vw;    
+}
